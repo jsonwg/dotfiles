@@ -1,0 +1,72 @@
+add_newline = false
+
+format = """
+$character\
+$hostname\
+$shlvl\
+$kubernetes\
+$directory\
+$vcsh\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$hg_branch\
+$docker_context\
+$package\
+$cmake\
+$dart\
+$deno\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$golang\
+$helm\
+$java\
+$julia\
+$kotlin\
+$nim\
+$nodejs\
+$ocaml\
+$perl\
+$php\
+$purescript\
+$python\
+$red\
+$ruby\
+$rust\
+$scala\
+$swift\
+$terraform\
+$vlang\
+$vagrant\
+$zig\
+$nix_shell\
+$conda\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$env_var\
+$crystal\
+$custom\
+$cmd_duration\
+$line_break\
+$lua\
+$jobs\
+$battery\
+$time\
+$status\
+$shell\
+"""
+
+[character]                            
+success_symbol = '[❮](bold cyan)[](bold white)[❯](bold cyan)'
+error_symbol = '[❮](bold red)[✖](bold white)[❯](bold red)'
+vicmd_symbol= '[\[](bold cyan)[](bold white)[\]](bold cyan)'
+format = "$symbol at "
+
+[line_break]
+disabled = true
